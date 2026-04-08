@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=sichrplace;encrypt=false;trustServerCertificate=true
+    username: sa
+    password: YourStrong!Passw0rd
+logging:
+  level:
+    com.sichrplace: DEBUG
+    org.hibernate.SQL: DEBUG
+    org.flywaydb: DEBUG
